@@ -1,0 +1,18 @@
+﻿
+.titulo-preproyectos {
+    text-align: center;
+    font-size: 1rem;
+   margin: 80px 0 50px 0; 
+}
+.link-acceso:hover {
+    width: 90px;
+    height: 40px;
+}
+.contenedores-proye img {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 11px;
+}
+.formularioc{
+    width: 50%;
+}

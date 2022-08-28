@@ -1,0 +1,15 @@
+﻿@model HomeIndexViewModel 
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+ <!-- importar configuraciones  -->
+
+
+<partial name="_Presentacion" />  @* Vista parcial*@
+<partial name="_Habilidades" />
+<partial name="_SeccionProyectos" model="Model.Proyectos" />
+
+
