@@ -20,7 +20,7 @@ namespace Portafolio.Controllers
 
         public IActionResult Index()
         {
-            var proyectos = repositorioProyectos.ObtenerProyecto().ToList();
+            var proyectos = repositorioProyectos.ObtenerProyecto().Take(2).ToList();
             var modelo = new HomeIndexViewModel() { Proyectos = proyectos };
 
             return View(modelo);
@@ -36,7 +36,7 @@ namespace Portafolio.Controllers
         public IActionResult Contacto()
 
         {
-            
+
             return View();
         }
         [HttpPost]
